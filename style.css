@@ -1,0 +1,34 @@
+header {
+    background-color: #A2B29F;
+}
+
+#About-Me {
+    background-color: #F8EDE3;
+    padding-top: 1px;
+}
+
+#Features {
+    background-color: #BDD2B6;
+}
+
+#footer {
+    background-color: #BDD2B6;
+}
+
+#check {
+    display: flex;
+    justify-content: end;
+}
+
+.image-container {
+    border: 5px solid #798777; /* Red border, you can change the color code */
+    border-radius: 10px;
+    padding: 0px; /* Optional: Add padding to create space between the border and the image */
+    display: inline-block; /* Ensures the container only takes the necessary width */
+}
+
+.image-container img {
+    display: block; /* Ensures the image doesn't have extra space at the bottom */
+    max-width: 100%; /* Makes sure the image doesn't exceed the container's width */
+    height: auto; /* Allows the image to adjust its height according to its width */
+}
