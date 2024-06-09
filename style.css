@@ -20,6 +20,10 @@ header {
     justify-content: end;
 }
 
+html, body {
+    overflow-x: hidden;
+}  
+
 .image-container {
     border: 5px solid #798777; /* Red border, you can change the color code */
     border-radius: 10px;
